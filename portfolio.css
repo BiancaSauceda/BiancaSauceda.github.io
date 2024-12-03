@@ -1,0 +1,85 @@
+.name-title{
+    background-color: pink;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+.sub-title{
+    background-color: pink;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.bio{
+    max-width: 75%;
+    margin: 0 auto; /* Center the paragraph */ 
+    padding: 10px; /* Optional padding */
+    text-align: center;
+}
+.bio-title{
+    text-align: center;
+    color: pink;
+}
+.bio-container{
+    border: 5px solid pink;
+}
+.photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projects-title{
+    background-color: pink;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.abt-me-title{
+    background-color: pink;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.gif-container{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.computer-gif{
+    height: 10%;
+    width: 30%;
+}
+.project-name{
+    color: pink;
+    display: block;
+    text-align: center;
+    font-size: x-large;
+}
+.project-container{
+    border: 5px solid pink;
+    margin: 10px;
+    padding: 20px;
+}
+.project-name:hover{
+    color:rgb(225, 115, 133);
+}
+.abt-me-list-title{
+    color: pink;
+    text-align: center;
+}
+.abt-me-list-title-container{
+    border: solid pink 5px;
+    padding: 10px;
+    margin: 10px
+}
+.email{
+    color: white;
+    background-color: pink;
+    text-align: center;
+    margin: 0 auto;
+}
+.abt-me-list-title-container li {
+    color: pink;
+    text-align: center;
+    list-style-position: inside;
+}

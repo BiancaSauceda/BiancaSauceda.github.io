@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Art Gallery</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Digital Art Gallery</h1>
+    </header>
+    <main>
+      <div class="gallery">
+        <!-- Artwork 1 -->
+        <div
+          class="art-piece"
+          data-artist="Artist 1"
+          data-year="2021"
+          data-description="A futuristic cityscape with neon lights."
+        >
+          <img src="images/artwork1.png" alt="Futuristic Cityscape" />
+        </div>
+        <!-- Artwork 2 -->
+        <div
+          class="art-piece"
+          data-artist="Artist 2"
+          data-year="2019"
+          data-description="A still life painting with a vase of flowers."
+        >
+          <img src="images/artwork2.png" alt="Still Life Painting" />
+        </div>
+
+        <!-- Artwork 3 -->
+        <div
+          class="art-piece"
+          data-artist="Artist 3"
+          data-year="2023"
+          data-description="A minimalist geometric art piece."
+        >
+          <img src="images/artwork3.png" alt="Minimalist Geometric Art" />
+        </div>
+        <!-- Artwork 4 -->
+        <div
+          class="art-piece"
+          data-artist="Artist 4"
+          data-year="2020"
+          data-description="A serene ocean scene with a sunset."
+        >
+          <img src="images/artwork4.png" alt="Ocean Scene Art" />
+        </div>
+        <!-- Artwork 5 -->
+        <div
+          class="art-piece"
+          data-artist="Artist 5"
+          data-year="2022"
+          data-description="A visionary painting of the sky"
+        >
+          <img src="images/artwork5.png" alt="Visionary Sky" />
+        </div>
+        <!-- Artwork 6 -->
+        <div
+          class="art-piece"
+          data-artist="Artist 6"
+          data-year="2018"
+          data-description="A soul connecting with the universe"
+        >
+          <img src="images/artwork6.png" alt="Universe and Soul" />
+        </div>
+      </div>
+      <div class="modal" id="artModal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2 id="artTitle"></h2>
+          <p id="artDescription"></p>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
